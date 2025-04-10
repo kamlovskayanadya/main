@@ -49,7 +49,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Chat logs\n"
+                "text": "Логи чата"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -148,7 +148,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Store",
-              "name": "Chat logs\n",
+              "name": "Логи чата",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -163,8 +163,8 @@
           },
           {
             "position": {
-              "x": 400,
-              "y": 460
+              "x": 500,
+              "y": 730
             },
             "size": {
               "width": 120,
@@ -172,7 +172,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Recruiters DB"
+                "text": "BD кандидатов"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -271,7 +271,7 @@
             "zIndex": 2,
             "data": {
               "type": "tm.Store",
-              "name": "Recruiters DB",
+              "name": "BD кандидатов",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -295,7 +295,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Recruiter"
+                "text": "Соискатель"
               },
               "body": {
                 "stroke": "#333333",
@@ -391,7 +391,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Actor",
-              "name": "Recruiter",
+              "name": "Соискатель",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -402,8 +402,8 @@
           },
           {
             "position": {
-              "x": 660,
-              "y": 400
+              "x": 960,
+              "y": 550
             },
             "size": {
               "width": 112.5,
@@ -518,8 +518,8 @@
           },
           {
             "position": {
-              "x": 750,
-              "y": 40.000000000000284
+              "x": 830,
+              "y": 50
             },
             "size": {
               "width": 112.5,
@@ -527,7 +527,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Company member"
+                "text": "Сотрудники\n ИБ-компании"
               },
               "body": {
                 "stroke": "#333333",
@@ -623,7 +623,7 @@
             "zIndex": 5,
             "data": {
               "type": "tm.Actor",
-              "name": "Company member",
+              "name": "Сотрудники\n ИБ-компании",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -643,7 +643,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Resume \nupload"
+                "text": "Загрузка\n резюме"
               },
               "body": {
                 "stroke": "#333333",
@@ -739,7 +739,7 @@
             "zIndex": 6,
             "data": {
               "type": "tm.Process",
-              "name": "Resume \nupload",
+              "name": "Загрузка\n резюме",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -786,14 +786,14 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "ce3219c0-cd7f-4644-a27d-ec3bf1f0826a",
+            "id": "1a88fa39-5c3e-431c-b1fb-7630cc72c3a3",
             "source": {
-              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
-              "port": "1a2bf54a-131b-487b-bbd7-aeed53844d33"
+              "cell": "c29c5b8e-ea6c-40bd-9dae-357f2b1c4e0f",
+              "port": "66e1cd44-7f80-4cc2-b0af-4b8f30244c7e"
             },
             "target": {
-              "cell": "144662ef-33b3-4c1c-a119-20335724e172",
-              "port": "655cc870-46da-420a-8085-9fa707cac22f"
+              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
+              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
             }
           },
           {
@@ -830,35 +830,20 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "1a88fa39-5c3e-431c-b1fb-7630cc72c3a3",
+            "id": "ce3219c0-cd7f-4644-a27d-ec3bf1f0826a",
             "source": {
-              "cell": "c29c5b8e-ea6c-40bd-9dae-357f2b1c4e0f",
-              "port": "66e1cd44-7f80-4cc2-b0af-4b8f30244c7e"
+              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
+              "port": "1a2bf54a-131b-487b-bbd7-aeed53844d33"
             },
             "target": {
-              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
-              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "cell": "144662ef-33b3-4c1c-a119-20335724e172",
+              "port": "655cc870-46da-420a-8085-9fa707cac22f"
             }
           },
           {
             "position": {
-              "x": 29.999999999999915,
-              "y": 434.0000000000001
+              "x": 782.5,
+              "y": 450
             },
             "size": {
               "width": 100,
@@ -866,7 +851,7 @@
             },
             "attrs": {
               "text": {
-                "text": "CTF task\nchecker\n"
+                "text": "\nCTF task\nchecker\n"
               },
               "body": {
                 "stroke": "#333333",
@@ -962,7 +947,7 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Process",
-              "name": "CTF task\nchecker\n",
+              "name": "\nCTF task\nchecker\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
