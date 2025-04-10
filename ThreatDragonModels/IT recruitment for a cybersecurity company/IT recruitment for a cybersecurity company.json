@@ -40,8 +40,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 720
+              "x": 980,
+              "y": 710
             },
             "size": {
               "width": 120,
@@ -172,7 +172,7 @@
             },
             "attrs": {
               "text": {
-                "text": "BD кандидатов"
+                "text": "Система рекрунитга"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -271,7 +271,7 @@
             "zIndex": 2,
             "data": {
               "type": "tm.Store",
-              "name": "BD кандидатов",
+              "name": "Система рекрунитга",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -402,8 +402,8 @@
           },
           {
             "position": {
-              "x": 960,
-              "y": 550
+              "x": 197.5,
+              "y": 720
             },
             "size": {
               "width": 112.5,
@@ -881,7 +881,7 @@
             },
             "target": {
               "cell": "e6694fe9-5c79-406b-b59d-3da3241845d0",
-              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
+              "port": "2946494b-d486-4011-a149-2772b2d179a3"
             },
             "vertices": [
               {
@@ -891,21 +891,207 @@
               {
                 "x": 700,
                 "y": 400
+              },
+              {
+                "x": 770,
+                "y": 370
               }
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "aa6c58e4-194e-467e-bf63-263a8e58008d",
+            "source": {
+              "cell": "e6694fe9-5c79-406b-b59d-3da3241845d0",
+              "port": "664bd83d-fa08-470d-a2b9-374bf3939ccd"
+            },
+            "target": {
+              "cell": "ad150271-9f91-43f8-ac3f-a4c891c23291",
+              "port": "655cc870-46da-420a-8085-9fa707cac22f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "639b2a81-8141-46dc-8a9c-0622d278783c",
+            "source": {
+              "cell": "a70a0fc3-d5f3-4dd8-8395-299990e87b1a",
+              "port": "66e1cd44-7f80-4cc2-b0af-4b8f30244c7e"
+            },
+            "target": {
+              "cell": "e6694fe9-5c79-406b-b59d-3da3241845d0",
+              "port": "2946494b-d486-4011-a149-2772b2d179a3"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "0d51b32d-554e-4c9f-87bf-d6d831e4bb33",
+            "source": {
+              "x": 890,
+              "y": 490
+            },
+            "target": {
+              "cell": "8753601f-9370-486f-b6d4-87aa3243b8d7",
+              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
+            },
+            "vertices": [
+              {
+                "x": 920,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "69eb43fc-4b03-4b76-9691-ae166e912e64",
+            "source": {
+              "cell": "e6694fe9-5c79-406b-b59d-3da3241845d0",
+              "port": "1a2bf54a-131b-487b-bbd7-aeed53844d33"
+            },
+            "target": {
+              "cell": "144662ef-33b3-4c1c-a119-20335724e172",
+              "port": "7e4a6a13-b3bc-46be-a980-ac5c15155f6d"
+            }
+          },
+          {
             "position": {
-              "x": 782.5,
-              "y": 450
+              "x": 770,
+              "y": 460
             },
             "size": {
-              "width": 100,
-              "height": 70
+              "width": 110,
+              "height": 100
             },
             "attrs": {
               "text": {
-                "text": "\nCTF task\nchecker\n"
+                "text": "Онлайн-чат\nс кандидатами\n"
               },
               "body": {
                 "stroke": "#333333",
@@ -1001,7 +1187,126 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Process",
-              "name": "\nCTF task\nchecker\n",
+              "name": "Онлайн-чат\nс кандидатами\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 995,
+              "y": 290
+            },
+            "size": {
+              "width": 90,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "CTF-task \nchecker"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2946494b-d486-4011-a149-2772b2d179a3"
+                },
+                {
+                  "group": "right",
+                  "id": "664bd83d-fa08-470d-a2b9-374bf3939ccd"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1a2bf54a-131b-487b-bbd7-aeed53844d33"
+                },
+                {
+                  "group": "left",
+                  "id": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
+                }
+              ]
+            },
+            "id": "8753601f-9370-486f-b6d4-87aa3243b8d7",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Process",
+              "name": "CTF-task \nchecker",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
