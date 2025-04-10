@@ -19,7 +19,28 @@
         "cells": [
           {
             "position": {
-              "x": 600,
+              "x": 29.999999999999915,
+              "y": 40.000000000000284
+            },
+            "size": {
+              "width": 310,
+              "height": 190
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "abcff84d-a0a6-4f8d-8962-0e9ba6a0262e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 520,
               "y": 160
             },
             "size": {
@@ -142,8 +163,8 @@
           },
           {
             "position": {
-              "x": 440,
-              "y": 350
+              "x": 339.9999999999999,
+              "y": 390
             },
             "size": {
               "width": 120,
@@ -497,8 +518,8 @@
           },
           {
             "position": {
-              "x": 790,
-              "y": 80
+              "x": 750,
+              "y": 40.000000000000284
             },
             "size": {
               "width": 112.5,
@@ -613,8 +634,8 @@
           },
           {
             "position": {
-              "x": 163,
-              "y": 189
+              "x": 250,
+              "y": 150
             },
             "size": {
               "width": 60,
@@ -770,14 +791,58 @@
             "id": "523d7c63-f9e4-4b6d-b0c8-5f2a0cca8f6e",
             "source": {
               "cell": "01afb488-46d2-4b2d-9040-3948118057be",
-              "port": "664bd83d-fa08-470d-a2b9-374bf3939ccd"
+              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
             },
             "target": {
-              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
-              "port": "664bd83d-fa08-470d-a2b9-374bf3939ccd"
+              "cell": "c29c5b8e-ea6c-40bd-9dae-357f2b1c4e0f",
+              "port": "345d699e-4cfa-485d-a5ca-02510fbf0091"
             },
             "vertices": [],
             "parent": "01afb488-46d2-4b2d-9040-3948118057be"
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "ce3219c0-cd7f-4644-a27d-ec3bf1f0826a",
+            "source": {
+              "x": 310,
+              "y": 182
+            },
+            "target": {
+              "cell": "144662ef-33b3-4c1c-a119-20335724e172",
+              "port": "655cc870-46da-420a-8085-9fa707cac22f"
+            }
           }
         ],
         "description": "IT recruitment for a cybersecurity company"
