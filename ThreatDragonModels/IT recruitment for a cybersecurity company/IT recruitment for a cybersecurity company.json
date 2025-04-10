@@ -40,8 +40,8 @@
           },
           {
             "position": {
-              "x": 520,
-              "y": 160
+              "x": 540,
+              "y": 130
             },
             "size": {
               "width": 120,
@@ -163,8 +163,8 @@
           },
           {
             "position": {
-              "x": 339.9999999999999,
-              "y": 390
+              "x": 400,
+              "y": 460
             },
             "size": {
               "width": 120,
@@ -750,55 +750,7 @@
               "privilegeLevel": "",
               "threats": []
             },
-            "children": [
-              "523d7c63-f9e4-4b6d-b0c8-5f2a0cca8f6e"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "523d7c63-f9e4-4b6d-b0c8-5f2a0cca8f6e",
-            "source": {
-              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
-              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
-            },
-            "target": {
-              "cell": "c29c5b8e-ea6c-40bd-9dae-357f2b1c4e0f",
-              "port": "345d699e-4cfa-485d-a5ca-02510fbf0091"
-            },
-            "vertices": [],
-            "parent": "01afb488-46d2-4b2d-9040-3948118057be"
+            "children": []
           },
           {
             "shape": "flow",
@@ -836,12 +788,190 @@
             ],
             "id": "ce3219c0-cd7f-4644-a27d-ec3bf1f0826a",
             "source": {
-              "x": 310,
-              "y": 182
+              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
+              "port": "1a2bf54a-131b-487b-bbd7-aeed53844d33"
             },
             "target": {
               "cell": "144662ef-33b3-4c1c-a119-20335724e172",
               "port": "655cc870-46da-420a-8085-9fa707cac22f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "1a88fa39-5c3e-431c-b1fb-7630cc72c3a3",
+            "source": {
+              "cell": "c29c5b8e-ea6c-40bd-9dae-357f2b1c4e0f",
+              "port": "66e1cd44-7f80-4cc2-b0af-4b8f30244c7e"
+            },
+            "target": {
+              "cell": "01afb488-46d2-4b2d-9040-3948118057be",
+              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 29.999999999999915,
+              "y": 434.0000000000001
+            },
+            "size": {
+              "width": 100,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "CTF task\nchecker\n"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2946494b-d486-4011-a149-2772b2d179a3"
+                },
+                {
+                  "group": "right",
+                  "id": "664bd83d-fa08-470d-a2b9-374bf3939ccd"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1a2bf54a-131b-487b-bbd7-aeed53844d33"
+                },
+                {
+                  "group": "left",
+                  "id": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
+                }
+              ]
+            },
+            "id": "e6694fe9-5c79-406b-b59d-3da3241845d0",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "CTF task\nchecker\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ],
