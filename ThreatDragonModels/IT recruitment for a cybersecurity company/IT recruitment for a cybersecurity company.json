@@ -40,8 +40,8 @@
           },
           {
             "position": {
-              "x": 540,
-              "y": 130
+              "x": 740,
+              "y": 720
             },
             "size": {
               "width": 120,
@@ -839,6 +839,60 @@
               "cell": "144662ef-33b3-4c1c-a119-20335724e172",
               "port": "655cc870-46da-420a-8085-9fa707cac22f"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "182286e5-f02b-4cfa-b28b-39cd33d18840",
+            "source": {
+              "cell": "c29c5b8e-ea6c-40bd-9dae-357f2b1c4e0f",
+              "port": "345d699e-4cfa-485d-a5ca-02510fbf0091"
+            },
+            "target": {
+              "cell": "e6694fe9-5c79-406b-b59d-3da3241845d0",
+              "port": "dd65a54d-f4a8-4e12-a19c-429bb8afe652"
+            },
+            "vertices": [
+              {
+                "x": 390,
+                "y": 170
+              },
+              {
+                "x": 700,
+                "y": 400
+              }
+            ]
           },
           {
             "position": {
