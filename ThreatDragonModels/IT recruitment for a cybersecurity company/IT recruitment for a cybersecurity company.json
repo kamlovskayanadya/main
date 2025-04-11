@@ -1716,7 +1716,7 @@
           {
             "position": {
               "x": 55,
-              "y": 450
+              "y": 500
             },
             "size": {
               "width": 112.5,
@@ -1950,8 +1950,8 @@
           },
           {
             "position": {
-              "x": 490,
-              "y": 255
+              "x": 480,
+              "y": 240
             },
             "size": {
               "width": 80,
@@ -1969,6 +1969,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -2052,7 +2053,6 @@
               ]
             },
             "id": "e09accd2-0559-4d1d-8c94-72935d9d8926",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "Онлайн-\nчат",
@@ -2069,7 +2069,7 @@
           },
           {
             "position": {
-              "x": 106.25,
+              "x": 196.25,
               "y": 650
             },
             "size": {
@@ -2078,7 +2078,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Проверка \nтасков"
+                "text": "Система \nпроверки тасков"
               },
               "body": {
                 "stroke": "#333333",
@@ -2088,6 +2088,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -2171,10 +2172,9 @@
               ]
             },
             "id": "24b7851e-8803-4c2f-b46d-fef551c81856",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
-              "name": "Проверка \nтасков",
+              "name": "Система \nпроверки тасков",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2210,6 +2210,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -2293,7 +2294,6 @@
               ]
             },
             "id": "9f279ac3-8f38-4570-aea3-9b17710cc6f2",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Система\n рекрутинга",
@@ -2311,8 +2311,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": 530
+              "x": 430,
+              "y": 590
             },
             "size": {
               "width": 120,
@@ -2333,6 +2333,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -2416,7 +2417,6 @@
               ]
             },
             "id": "f7f3b4df-3f00-432f-acd4-7dfe38259895",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "Логи чатов",
@@ -2731,50 +2731,6 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "466c1454-72e9-4fe1-86de-bcaa075b6e9d",
-            "source": {
-              "cell": "23dc1a7f-a09c-407e-89b3-12a7b3e263c9",
-              "port": "a5e0349c-4c1c-45b5-b45b-6eb2fa7d1f92"
-            },
-            "target": {
-              "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
-              "port": "c009bd43-d8ed-47a1-b789-93ab294e01cd"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
             "id": "b1e3b499-6f4f-48bb-9860-e478a9b810db",
             "source": {
               "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
@@ -2783,50 +2739,6 @@
             "target": {
               "cell": "9f279ac3-8f38-4570-aea3-9b17710cc6f2",
               "port": "a417dd29-9e8b-4a96-9b72-1a3ee8e48297"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "20fbdf3d-560f-438b-a83c-7711ca95417b",
-            "source": {
-              "cell": "0dd262b6-e568-4a30-acd8-e9d9d606ffb8",
-              "port": "87f049c8-7fb2-469d-b10f-b4233293926c"
-            },
-            "target": {
-              "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
-              "port": "c009bd43-d8ed-47a1-b789-93ab294e01cd"
             }
           },
           {
@@ -2926,6 +2838,150 @@
                   "name": "block"
                 },
                 "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "d8165d94-f410-4a2b-954f-82a46a1c12cd",
+            "source": {
+              "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
+              "port": "f22d3963-19fc-4b45-a353-27b2dc6e9c63"
+            },
+            "target": {
+              "cell": "2810784e-0633-40ab-88ab-619daf77851a",
+              "port": "c009bd43-d8ed-47a1-b789-93ab294e01cd"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "e7b992be-0db0-4c21-93a6-6e94eddb6c2a",
+            "source": {
+              "x": 740,
+              "y": -10
+            },
+            "target": {
+              "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
+              "port": "c009bd43-d8ed-47a1-b789-93ab294e01cd"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "39093569-3813-49da-b85c-e6aa1d98aa05",
+            "source": {
+              "x": 270,
+              "y": -50
+            },
+            "target": {
+              "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
+              "port": "c009bd43-d8ed-47a1-b789-93ab294e01cd"
+            },
+            "vertices": [
+              {
+                "x": 380,
+                "y": 50
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
                   "name": ""
                 },
                 "strokeDasharray": null
@@ -2951,14 +3007,58 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "7a8526eb-2e06-4bd4-ad1d-2c593bae6b7f",
+            "id": "9b5db2c2-556c-43dc-a994-7d80948df9b7",
             "source": {
-              "x": 532,
-              "y": 345
+              "cell": "24b7851e-8803-4c2f-b46d-fef551c81856",
+              "port": "c009bd43-d8ed-47a1-b789-93ab294e01cd"
             },
             "target": {
-              "cell": "2810784e-0633-40ab-88ab-619daf77851a",
-              "port": "c009bd43-d8ed-47a1-b789-93ab294e01cd"
+              "cell": "9f279ac3-8f38-4570-aea3-9b17710cc6f2",
+              "port": "38651c23-bca5-4e8f-b5c2-8cdcf5236c68"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "3e9eb6a5-3b33-495b-aa5b-83c3320f3df6",
+            "source": {
+              "cell": "f7f3b4df-3f00-432f-acd4-7dfe38259895",
+              "port": "3c4344d8-8e8e-440d-b78a-3076541edf5a"
+            },
+            "target": {
+              "cell": "9f279ac3-8f38-4570-aea3-9b17710cc6f2",
+              "port": "38651c23-bca5-4e8f-b5c2-8cdcf5236c68"
             }
           },
           {
@@ -2982,6 +3082,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -3065,7 +3166,6 @@
               ]
             },
             "id": "d6cfc14a-0171-4de1-b2cd-bd782c53291e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Актуальные \nвакансии",
@@ -3082,7 +3182,7 @@
           },
           {
             "position": {
-              "x": 696,
+              "x": 630,
               "y": 470
             },
             "size": {
@@ -3101,6 +3201,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -3184,7 +3285,6 @@
               ]
             },
             "id": "2810784e-0633-40ab-88ab-619daf77851a",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Auth",
@@ -3217,6 +3317,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -3300,7 +3401,6 @@
               ]
             },
             "id": "e2e74340-0fac-468b-999e-017838e5feb5",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
