@@ -3198,6 +3198,119 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 770,
+              "y": 380
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6c73831f-58e0-4958-9f6f-17e87bf7dd4b"
+                },
+                {
+                  "group": "right",
+                  "id": "b9175dc5-884f-4721-8685-3175554d1bc2"
+                },
+                {
+                  "group": "bottom",
+                  "id": "047e6904-7766-41e0-8574-b5685812cb54"
+                },
+                {
+                  "group": "left",
+                  "id": "cc95a46e-e694-4fe0-83c7-4d1fb637ccfa"
+                }
+              ]
+            },
+            "id": "e2e74340-0fac-468b-999e-017838e5feb5",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ],
         "description": "Recruiter"
