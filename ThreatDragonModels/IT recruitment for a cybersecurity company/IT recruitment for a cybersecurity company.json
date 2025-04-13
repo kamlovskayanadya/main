@@ -1946,11 +1946,24 @@
                   "new": false,
                   "number": 30,
                   "score": ""
+                },
+                {
+                  "id": "d2f10cc4-1b79-4e7c-a41d-a26a2ca42927",
+                  "title": "Подмена токена доступа",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Пользователь может подменить токен аутентификации в запросе, чтобы выдать себя за другого пользователя.  \nCWE-345: Insufficient Verification of Data Authenticity",
+                  "mitigation": "Проверять подлинность токена на сервере и использовать подпись или шифрование.  \nOWASP ASVS 3.2.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 3,
-                "tampering": 0,
+                "tampering": 1,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -2151,6 +2164,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 30
+    "threatTop": 31
   }
 }
