@@ -839,12 +839,25 @@
                   "new": false,
                   "number": 17,
                   "score": ""
+                },
+                {
+                  "id": "87e2ae33-78ca-4198-b009-3f2631636579",
+                  "title": "Утечка данных кандидата из системы",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Если в системе нет защиты, то злоумышленник может получить доступ к заданиям кандидата, его резюме или переписке.  \nCWE-200: Exposure of Sensitive Information to Unauthorized Actor",
+                  "mitigation": "1. Проверять права доступа к каждому блоку данных кандидата.  \n2. Передавать данные только по защищённому соединению (HTTPS).  \n3. Не отображать скрытую информацию без авторизации.  \nOWASP ASVS 8.2.2, 9.1.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0
               }
             },
@@ -1968,6 +1981,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 17
+    "threatTop": 18
   }
 }
