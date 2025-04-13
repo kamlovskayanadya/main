@@ -521,16 +521,36 @@
                   "new": false,
                   "number": 33,
                   "score": ""
+                },
+                {
+                  "id": "e6d8fa1e-de12-43bb-9dfb-f832baf12542",
+                  "title": "Загрузка файла в исполняемую директорию",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Если резюме загружается в папку, которую сервер может обрабатывать как исполняемую, то злоумышленник может выполнить код на сервере.  \nCWE-434: Unrestricted Upload of File with Dangerous Type",
+                  "mitigation": " Хранить загруженные файлы только в папках без права на исполнение.  \nOWASP ASVS 14.4.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -702,8 +722,8 @@
           },
           {
             "position": {
-              "x": 240,
-              "y": 200
+              "x": 234.99999999999955,
+              "y": 205.00000000000108
             },
             "size": {
               "width": 120,
@@ -2192,6 +2212,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 33
+    "threatTop": 35
   }
 }
