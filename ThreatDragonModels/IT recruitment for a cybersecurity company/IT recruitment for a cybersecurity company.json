@@ -2039,6 +2039,19 @@
                   "new": false,
                   "number": 24,
                   "score": ""
+                },
+                {
+                  "id": "04b85089-2812-4517-85d8-43ff5bad73f4",
+                  "title": "Просмотр чужого задания",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Кандидат может изменить ID задания и получить доступ к чужому заданию, если система не проверяет права доступа.  \nCWE-639: Authorization Bypass Through User-Controlled Key",
+                  "mitigation": "1. Проверять, имеет ли пользователь право доступа к заданию при каждом запросе.  \n2. Использовать уникальные и непредсказуемые идентификаторы заданий.  \nOWASP ASVS 4.2.1, 4.3.3",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -2047,7 +2060,7 @@
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 1
               }
             },
             "tools": {
@@ -2064,6 +2077,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 24
+    "threatTop": 25
   }
 }
