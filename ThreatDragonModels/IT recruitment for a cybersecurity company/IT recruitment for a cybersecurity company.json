@@ -640,6 +640,19 @@
                   "new": false,
                   "number": 12,
                   "score": ""
+                },
+                {
+                  "id": "61c5eb6e-81f7-431d-8d46-21ba3c35a150",
+                  "title": "Перегрузка чата",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Злоумышленник может отправить большое количество сообщений, что приведёт к перегрузке интерфейса или сервера.  \nCWE-400: Uncontrolled Resource Consumption",
+                  "mitigation": "1. Ограничить частоту отправки сообщений.  \n2. Установить лимит на длину текста.  \nOWASP ASVS 7.5.1, 13.4.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -647,7 +660,7 @@
                 "tampering": 1,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 0,
+                "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
             },
@@ -1894,6 +1907,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 12
+    "threatTop": 13
   }
 }
