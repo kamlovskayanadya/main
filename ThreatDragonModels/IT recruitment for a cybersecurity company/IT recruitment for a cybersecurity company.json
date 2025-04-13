@@ -198,11 +198,24 @@
                   "new": false,
                   "number": 6,
                   "score": ""
+                },
+                {
+                  "id": "de4dc0e1-6b28-4bfe-95ed-8afd85e31986",
+                  "title": "Утечка персональных данных",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Если резюме или контактные данные кандидата передаются по HTTP, возможно их перехватывание в публичной сети.  \nCWE-319: Cleartext Transmission of Sensitive Information",
+                  "mitigation": "1. Полный запрет доступа по HTTP.  \nOWASP ASVS 9.1.3",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "repudiation": 1
+                "repudiation": 2
               }
             },
             "tools": {
@@ -1802,6 +1815,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 6
+    "threatTop": 7
   }
 }
