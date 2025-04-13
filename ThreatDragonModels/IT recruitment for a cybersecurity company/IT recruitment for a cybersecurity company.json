@@ -1831,18 +1831,31 @@
                   "severity": "High",
                   "type": "Tampering",
                   "description": "Кандидат может отправить запрос на удаление вакансии, изменив метод или параметры запроса вручную, если сервер не проверяет роль пользователя.  \nCWE-863: Incorrect Authorization",
-                  "mitigation": "Ограничить права кандидатов к модификации списка вакансий.\nOWASP ASVS 4.3.3",
+                  "mitigation": "Ограничить права кандидатов на модификацию списка вакансий.\nOWASP ASVS 4.3.3",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 36,
+                  "score": ""
+                },
+                {
+                  "id": "1a266967-3e19-491a-8089-a4d788a6dbf6",
+                  "title": "Доступ к скрытым вакансиям",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Кандидат может получить доступ к вакансиям, которые ещё не опубликованы, если система не фильтрует доступ по статусу и ролям.  \nCWE-200: Exposure of Sensitive Information to Unauthorized Actor",
+                  "mitigation": "Показывать вакансии только в соответствии с уровнем доступа и статусом публикации.  \nOWASP ASVS 8.2.2",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
                   "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 2,
+                "tampering": 4,
                 "repudiation": 0,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -2234,6 +2247,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 36
+    "threatTop": 37
   }
 }
