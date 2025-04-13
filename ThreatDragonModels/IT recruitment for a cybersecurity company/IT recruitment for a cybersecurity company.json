@@ -374,7 +374,7 @@
                 },
                 {
                   "id": "735c2015-93e0-4def-a903-a719da694a29",
-                  "title": "Отказ рекрутера от действий(Repudiation)",
+                  "title": "Отказ рекрутера от действий",
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Repudiation",
@@ -388,8 +388,15 @@
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "repudiation": 3
+                "repudiation": 4
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
