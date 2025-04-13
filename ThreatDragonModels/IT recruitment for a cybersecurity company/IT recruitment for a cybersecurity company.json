@@ -653,13 +653,26 @@
                   "new": false,
                   "number": 13,
                   "score": ""
+                },
+                {
+                  "id": "e31ddde7-46b3-4bf5-b1a5-cb745ed3b4c7",
+                  "title": " Утечка сообщений из чата",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Сообщения, из чата кандидата и рекрутера, могут быть случайно раскрыты другим пользователям, если не используется защищённое соединение или нарушены настройки доступа.  \nCWE-200: Exposure of Sensitive Information to Unauthorized Actor",
+                  "mitigation": "1. Использовать HTTPS для всех соединений с чатом.  \n2. Ограничить доступ к сообщениям только тем, кто участвует в переписке.  \nOWASP ASVS 8.2.2, 9.1.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
                 "tampering": 1,
                 "repudiation": 0,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
@@ -1907,6 +1920,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 13
+    "threatTop": 14
   }
 }
