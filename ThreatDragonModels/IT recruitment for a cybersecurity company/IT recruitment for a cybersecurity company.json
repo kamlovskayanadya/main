@@ -1074,12 +1074,12 @@
               "threats": [
                 {
                   "id": "e8d32031-4b1a-4f20-bcfc-dcc0436861ce",
-                  "title": "Изменение логов чата",
+                  "title": "Логи чата сохраняются в открытом виде",
                   "status": "Open",
-                  "severity": "High",
-                  "type": "Tampering",
-                  "description": "Злоумышленник может изменить или удалить записи в логах переписки, чтобы подделать содержание чата между кандидатом и рекрутером.  \nCWE-351: Insufficient Control of Writeable Configuration File",
-                  "mitigation": "1. Сделать хранилище логов только для чтения после записи.  \n2. Хранить логи с цифровой подписью или контрольной суммой.  \nOWASP ASVS 10.2.2, 10.3.1",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Если система сохраняет логи без шифрования или в доступной директории, злоумышленник может получить к ним доступ при компрометации сервера.  \nCWE-200: Exposure of Sensitive Information to Unauthorized Actor",
+                  "mitigation": "Хранить логи в защищённой директории и/или шифровать при записи.  \nOWASP ASVS 9.1.1",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 21,
@@ -1102,7 +1102,7 @@
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0
               }
             }
@@ -2258,13 +2258,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ],
