@@ -387,7 +387,7 @@
                 },
                 {
                   "id": "df34e004-fede-4413-9b28-fd94a3a8454f",
-                  "title": "Доступ рекрутера к данным кандидатам, подающимся на вакансии, не интересующие данного рекрутера(Information Disclosure)",
+                  "title": "Доступ рекрутера к данным кандидатов, подающихся на вакансии, не относящиеся к данному рекрутеру(Information Disclosure)",
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
@@ -400,7 +400,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 4,
                 "repudiation": 5
               }
             },
