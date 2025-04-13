@@ -1023,11 +1023,24 @@
                   "new": false,
                   "number": 21,
                   "score": ""
+                },
+                {
+                  "id": "967a8a2b-ae38-4c85-9532-b0009471ba64",
+                  "title": " Удаление логов чата",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Рекрутер может удалить или скрыть записи переписки с кандидатом, чтобы отрицать факт общения или изменить контекст разговора, если действия с логами не фиксируются.  \nCWE-778: Insufficient Logging\n",
+                  "mitigation": "1. Вести журнал операций с логами.  \n2. Защищать журнал от удаления и подделки.  \nOWASP ASVS 10.2.3, 10.3.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
@@ -2029,6 +2042,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 21
+    "threatTop": 22
   }
 }
