@@ -855,7 +855,7 @@
                 },
                 {
                   "id": "1bc9cfd7-99c6-4830-81ee-a20c0a048933",
-                  "title": "Сохранение устаревших или лишних данных о кандидатах",
+                  "title": "Хранение устаревших или лишних данных о кандидатах",
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
@@ -883,7 +883,7 @@
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
-                "informationDisclosure": 3,
+                "informationDisclosure": 4,
                 "denialOfService": 1
               }
             },
