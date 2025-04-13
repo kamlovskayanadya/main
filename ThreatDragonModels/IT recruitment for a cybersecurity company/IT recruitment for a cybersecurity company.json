@@ -201,7 +201,7 @@
                 },
                 {
                   "id": "de4dc0e1-6b28-4bfe-95ed-8afd85e31986",
-                  "title": "Утечка персональных данных",
+                  "title": "Утечка персональных данных(Information Disclosure)",
                   "status": "Open",
                   "severity": "High",
                   "type": "Repudiation",
@@ -228,8 +228,15 @@
               ],
               "threatFrequency": {
                 "spoofing": 2,
-                "repudiation": 3
+                "repudiation": 5
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -561,8 +568,8 @@
           },
           {
             "position": {
-              "x": 810,
-              "y": 130
+              "x": 800,
+              "y": 150.00000000000108
             },
             "size": {
               "width": 80,
@@ -952,7 +959,7 @@
           {
             "position": {
               "x": 850,
-              "y": 350
+              "y": 340
             },
             "size": {
               "width": 120,
@@ -1105,13 +1112,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1511,7 +1511,7 @@
             },
             "vertices": [
               {
-                "x": 960,
+                "x": 940,
                 "y": 170
               }
             ]
@@ -1896,7 +1896,7 @@
           },
           {
             "position": {
-              "x": 1020,
+              "x": 1000,
               "y": 260.0000000000011
             },
             "size": {
