@@ -826,12 +826,25 @@
                   "new": false,
                   "number": 16,
                   "score": ""
+                },
+                {
+                  "id": "464cccfe-7ab9-497a-9cf8-68eb1171f1c8",
+                  "title": "Доступ к личным делам других кандидатов (Elevation of Privilege)",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Рекрутер может получить доступ к личным делам кандидатов, с которыми он не работает.  \nCWE-285: Improper Authorization",
+                  "mitigation": "1. Проверять права доступа при каждом запросе к данным кандидата.  \n2. Привязывать доступ к кандидатам к конкретной вакансии или роли рекрутера.  \n3. Не показывать данные, если пользователь не авторизован для этого запроса.  \nOWASP ASVS 4.2.1, 4.3.3",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0
               }
             },
@@ -1955,6 +1968,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 16
+    "threatTop": 17
   }
 }
