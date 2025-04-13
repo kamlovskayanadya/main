@@ -371,11 +371,24 @@
                   "new": false,
                   "number": 10,
                   "score": ""
+                },
+                {
+                  "id": "735c2015-93e0-4def-a903-a719da694a29",
+                  "title": "Отказ рекрутера от действий(Repudiation)",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Рекрутер может отрицать факт взаимодействия с кандидатом/модификации данных.  \nCWE-347: Improper Verification of Cryptographic Signature",
+                  "mitigation": "Вести журнал всех действий рекрутеров.   \nOWASP ASVS 10.2.3",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "repudiation": 1
+                "repudiation": 2
               }
             },
             "tools": {
@@ -1859,6 +1872,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 10
+    "threatTop": 11
   }
 }
