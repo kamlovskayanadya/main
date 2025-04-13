@@ -358,11 +358,24 @@
                   "new": false,
                   "number": 9,
                   "score": ""
+                },
+                {
+                  "id": "dc715fe9-4aa5-41b3-892e-b843ec58f237",
+                  "title": "Утечка персональных данных кандидатов",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Рекрутер может случайно или намеренно передать третьим лицам данные кандидатов.  \nCWE-200: Exposure of Sensitive Information to Unauthorized Actor",
+                  "mitigation": "Вести журнал действий рекрутеров.  \nOWASP ASVS 8.2.2",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "repudiation": 0
+                "repudiation": 1
               }
             },
             "tools": {
@@ -1846,6 +1859,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 9
+    "threatTop": 10
   }
 }
