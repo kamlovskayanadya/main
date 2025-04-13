@@ -361,7 +361,7 @@
                 },
                 {
                   "id": "dc715fe9-4aa5-41b3-892e-b843ec58f237",
-                  "title": "Утечка персональных данных кандидатов",
+                  "title": "Утечка персональных данных кандидатов ()",
                   "status": "Open",
                   "severity": "High",
                   "type": "Repudiation",
@@ -384,11 +384,24 @@
                   "new": false,
                   "number": 11,
                   "score": ""
+                },
+                {
+                  "id": "df34e004-fede-4413-9b28-fd94a3a8454f",
+                  "title": "Доступ рекрутера к данным кандидатам, подающимся на вакансии, не интересующие данного рекрутера(Information Disclosure)",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Рекрутер может просматривать данные кандидатов, которые не относятся к его вакансиям, если система не ограничивает доступ по назначению.  \nCWE-200: Exposure of Sensitive Information to Unauthorized Actor",
+                  "mitigation": "Ограничить доступ рекрутера только к тем кандидатам, которые назначены на его вакансии.  OWASP ASVS 8.2.2",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
-                "repudiation": 4
+                "spoofing": 2,
+                "repudiation": 5
               }
             },
             "tools": {
@@ -1866,13 +1879,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2254,6 +2260,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 37
+    "threatTop": 38
   }
 }
