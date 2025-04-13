@@ -886,13 +886,6 @@
                 "informationDisclosure": 4,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -909,11 +902,13 @@
                 "text": "Логи чатов"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1009,13 +1004,40 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "e8d32031-4b1a-4f20-bcfc-dcc0436861ce",
+                  "title": "Изменение логов чата",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Злоумышленник может изменить или удалить записи в логах переписки, чтобы подделать содержание чата между кандидатом и рекрутером.  \nCWE-351: Insufficient Control of Writeable Configuration File",
+                  "mitigation": "1. Сделать хранилище логов только для чтения после записи.  \n2. Хранить логи с цифровой подписью или контрольной суммой.  \nOWASP ASVS 10.2.2, 10.3.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2007,6 +2029,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 20
+    "threatTop": 21
   }
 }
