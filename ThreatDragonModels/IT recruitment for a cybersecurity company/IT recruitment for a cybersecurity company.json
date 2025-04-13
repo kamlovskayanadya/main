@@ -1044,13 +1044,6 @@
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1931,8 +1924,8 @@
                 "text": "Система \nпроверки тасков"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2028,12 +2021,41 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "0b3a21d8-c291-4c42-97dd-5009be35064e",
+                  "title": "Подмена флага при сдаче ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Кандидат может изменить данные в запросе, чтобы система засчитала таск как выполненный.  \nCWE-472: External Control of Assumed-Immutable Web Parameter",
+                  "mitigation": "1. Проверять выполнение заданий на сервере, а не по данным из клиента.  \n2. Использовать подтверждение выполнения через анализ содержимого или действий кандидата.  \nOWASP ASVS 4.2.1, 13.2.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],
@@ -2042,6 +2064,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 22
+    "threatTop": 24
   }
 }
