@@ -230,13 +230,6 @@
                 "spoofing": 2,
                 "repudiation": 3
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -253,8 +246,8 @@
                 "text": "Рекрутер"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -350,9 +343,34 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "e4385893-049d-4478-a96b-3b442919c544",
+                  "title": "Подделка личности рекрутера",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "Нарушитель может войти в систему под видом рекрутера и получить доступ к резюме соискателей и их переписке.  \nCWE-290: Authentication Bypass by Spoofing",
+                  "mitigation": "1. Использовать многофакторную аутентификацию.  \n2. Ограничить число попыток входа.  \nOWASP ASVS 2.1.1, 2.2.4",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1828,6 +1846,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 8
+    "threatTop": 9
   }
 }
