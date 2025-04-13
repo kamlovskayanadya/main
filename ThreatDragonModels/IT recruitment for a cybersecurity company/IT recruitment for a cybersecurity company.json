@@ -868,14 +868,14 @@
                 },
                 {
                   "id": "9dff3b7d-521d-4d70-a58f-2e1e4ff05db8",
-                  "title": "New STRIDE threat",
+                  "title": "Переполнение системы рекрутинга",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Denial of service",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "description": "Нарушитель может отправлять большое количество запросов на добавление кандидатов, засылать флаги, отправлять сообщения, что может повлечь за собой переполнение базы данных системы рекрутинга и замедлению её работы.  \nCWE-400: Uncontrolled Resource Consumption",
+                  "mitigation": "1. Установить лимиты на количество запросов от одного пользователя.  \n2. Ограничить число создаваемых задач за единицу времени.  \n3. Включить мониторинг нагрузки и очистку неактуальных записей.  \nOWASP ASVS 7.5.1, 13.4.1",
                   "modelType": "STRIDE",
-                  "new": true,
+                  "new": false,
                   "number": 20,
                   "score": ""
                 }
@@ -884,7 +884,7 @@
                 "tampering": 1,
                 "repudiation": 1,
                 "informationDisclosure": 3,
-                "denialOfService": 0
+                "denialOfService": 1
               }
             },
             "tools": {
