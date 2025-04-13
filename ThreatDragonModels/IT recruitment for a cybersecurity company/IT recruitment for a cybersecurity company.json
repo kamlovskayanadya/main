@@ -1933,10 +1933,23 @@
                   "new": false,
                   "number": 29,
                   "score": ""
+                },
+                {
+                  "id": "77cde870-0b35-4443-8a21-5d213f27d0e1",
+                  "title": "Отсутствие защиты от подбора пароля",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Злоумышленник может перебрать логин и пароль пользователя, если система не ограничивает количество попыток входа.  \nCWE-307: Improper Restriction of Excessive Authentication Attempts",
+                  "mitigation": "Добавить ограничение количества попыток входа и временную блокировку при переборе.  \nOWASP ASVS 2.2.4",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 3,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -2138,6 +2151,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 29
+    "threatTop": 30
   }
 }
