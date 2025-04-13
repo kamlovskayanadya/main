@@ -2065,12 +2065,25 @@
                   "new": false,
                   "number": 26,
                   "score": ""
+                },
+                {
+                  "id": "baba8ade-f8a9-44d1-baa2-c3e4b2ecdeec",
+                  "title": "Отказ от факта сдачи задания",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Кандидат может указать, что не сдавал задание/система его не сохранила, если действия не фиксируются в логах.\nCWE-778: Insufficient Logging",
+                  "mitigation": "1. Вести журнал событий, включая дату и время сдачи задания.  \n2. Хранить контрольные данные об отправке (ID, IP, сессию).  \nOWASP ASVS 10.2.3",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
                 "tampering": 2,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
@@ -2090,6 +2103,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 26
+    "threatTop": 27
   }
 }
