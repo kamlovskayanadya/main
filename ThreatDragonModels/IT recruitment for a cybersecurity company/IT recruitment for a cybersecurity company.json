@@ -1367,8 +1367,50 @@
         "cells": [
           {
             "position": {
-              "x": 83.75,
-              "y": -200
+              "x": 719.9999999999999,
+              "y": 39.99999999999969
+            },
+            "size": {
+              "width": 380,
+              "height": 400
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "3190641f-c552-4321-a2d6-226a05863536",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 185,
+              "y": 150.00000000000068
+            },
+            "size": {
+              "width": 230,
+              "height": 320
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "510dcd20-688c-4c97-aaa5-b167c890b0c4",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 100,
+              "y": -240
             },
             "size": {
               "width": 112.5,
@@ -2628,9 +2670,41 @@
             ]
           },
           {
-            "position": {
-              "x": 280,
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "16af4ee4-e48f-4041-8c18-fc925ee5e77e",
+            "source": {
+              "x": 96,
+              "y": -105
+            },
+            "target": {
+              "x": 240,
               "y": -290
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": -105
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 300,
+              "y": -300
             },
             "size": {
               "width": 80,
@@ -2886,6 +2960,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2969,7 +3044,6 @@
               ]
             },
             "id": "408fa968-1818-4635-8f47-d6662fdd9faf",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "Система \nпроверки тасков",
