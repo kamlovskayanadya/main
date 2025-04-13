@@ -2052,10 +2052,23 @@
                   "new": false,
                   "number": 25,
                   "score": ""
+                },
+                {
+                  "id": "14dc2978-44b1-469e-a43a-30ba250e64ee",
+                  "title": "Сдача задания другим человеком",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Кандидат может передать ссылку на выполнение задания другому человеку, который выполнит его за него. \nCWE-290: Authentication Bypass by Spoofing",
+                  "mitigation": "Использовать верификацию личности перед сдачей (например, код, фото, видео или подтверждение профиля).  \nOWASP ASVS 3.1.2",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 0,
+                "spoofing": 1,
                 "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -2077,6 +2090,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 25
+    "threatTop": 26
   }
 }
