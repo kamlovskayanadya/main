@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 720,
-              "y": 80
+              "x": 735,
+              "y": 125.00000000000108
             },
             "size": {
-              "width": 380,
-              "height": 400
+              "width": 350,
+              "height": 330
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -235,7 +235,7 @@
           {
             "position": {
               "x": 703.75,
-              "y": -210
+              "y": -245
             },
             "size": {
               "width": 112.5,
@@ -561,8 +561,8 @@
           },
           {
             "position": {
-              "x": 816.25,
-              "y": 120
+              "x": 810,
+              "y": 130
             },
             "size": {
               "width": 80,
@@ -737,13 +737,6 @@
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -959,7 +952,7 @@
           {
             "position": {
               "x": 850,
-              "y": 380
+              "y": 350
             },
             "size": {
               "width": 120,
@@ -1741,6 +1734,94 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "a521c29a-b240-4abf-860d-d560747534af",
+            "source": {
+              "cell": "1e4b51fc-1cd0-4e15-8441-9ddaf62bcad0",
+              "port": "5d917771-2e92-421d-9d11-e26825a81ffa"
+            },
+            "target": {
+              "cell": "f7f3b4df-3f00-432f-acd4-7dfe38259895",
+              "port": "38651c23-bca5-4e8f-b5c2-8cdcf5236c68"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "5df566ab-efc7-4107-9180-5ecd8f18fa51",
+            "source": {
+              "x": 280,
+              "y": 710
+            },
+            "target": {
+              "x": 465,
+              "y": 653
+            }
+          },
+          {
             "position": {
               "x": 404.99999999999955,
               "y": -340
@@ -1897,7 +1978,7 @@
           {
             "position": {
               "x": 1020,
-              "y": 260
+              "y": 260.0000000000011
             },
             "size": {
               "width": 60,
@@ -2265,6 +2346,129 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
+            }
+          },
+          {
+            "position": {
+              "x": 560,
+              "y": 660
+            },
+            "size": {
+              "width": 110,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Администратор"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5d917771-2e92-421d-9d11-e26825a81ffa"
+                },
+                {
+                  "group": "right",
+                  "id": "fd4dbe11-c1d5-4d46-b984-71fc2211ca71"
+                },
+                {
+                  "group": "bottom",
+                  "id": "98d9714f-3bb4-4d5a-ba43-2752e41eea0d"
+                },
+                {
+                  "group": "left",
+                  "id": "dd242c39-4821-4c88-bbfd-3806d18213f0"
+                }
+              ]
+            },
+            "id": "1e4b51fc-1cd0-4e15-8441-9ddaf62bcad0",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Администратор",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],
