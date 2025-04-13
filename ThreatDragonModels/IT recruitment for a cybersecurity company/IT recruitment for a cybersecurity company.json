@@ -406,8 +406,8 @@
                 "text": "Загрузка \nрезюме"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -503,12 +503,34 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "54683e8b-0a1a-4dac-b1b0-c4880accfb50",
+                  "title": "Перезапись чужого резюме",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Пользователь может загрузить файл с тем же именем, что и уже загруженное резюме другого кандидата, если система не контролирует имена и пути. В результате резюме может быть перезаписано. \nCWE-706: Use of Incorrectly-Resolved Name or Reference",
+                  "mitigation": " Хранить файлы в отдельных папках для каждого пользователя.  \nOWASP ASVS 14.4.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -1982,13 +2004,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2177,6 +2192,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 32
+    "threatTop": 33
   }
 }
