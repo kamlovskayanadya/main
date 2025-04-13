@@ -2545,136 +2545,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Загрузка флагов\nв систему проверки",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Загрузка флагов\nв систему проверки"
-            ],
-            "id": "5628f3a6-860f-4cbb-a83a-a99e5e31a3f0",
-            "source": {
-              "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
-              "port": "f22d3963-19fc-4b45-a353-27b2dc6e9c63"
-            },
-            "target": {
-              "cell": "408fa968-1818-4635-8f47-d6662fdd9faf",
-              "port": "24ce1334-6a7f-4e92-948c-179f9abe2f13"
-            }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "16af4ee4-e48f-4041-8c18-fc925ee5e77e",
-            "source": {
-              "x": 96,
-              "y": -105
-            },
-            "target": {
-              "x": 240,
-              "y": -290
-            },
-            "vertices": [
-              {
-                "x": 240,
-                "y": -105
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Данные о сданных задачах",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Данные о сданных задачах"
-            ],
-            "id": "8ec082e7-3f04-4549-9884-a8d555c44f6c",
-            "source": {
-              "cell": "408fa968-1818-4635-8f47-d6662fdd9faf",
-              "port": "ad14da32-55e8-481a-b758-5a018479c866"
-            },
-            "target": {
-              "cell": "9f279ac3-8f38-4570-aea3-9b17710cc6f2",
-              "port": "38651c23-bca5-4e8f-b5c2-8cdcf5236c68"
-            },
-            "vertices": [
-              {
-                "x": 303.5,
-                "y": 370
-              },
-              {
-                "x": 299.75,
-                "y": 280
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Просмотр актуальных \nвакансий компании",
               "description": "",
               "outOfScope": false,
@@ -2746,6 +2616,136 @@
               {
                 "x": 420,
                 "y": -120
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Граница взаимодействия\n с внешними пользователями\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Граница взаимодействия\n с внешними пользователями\n"
+            ],
+            "id": "16af4ee4-e48f-4041-8c18-fc925ee5e77e",
+            "source": {
+              "x": 70,
+              "y": -110
+            },
+            "target": {
+              "x": 360,
+              "y": -340
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": -105
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Загрузка флагов\nв систему проверки",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Загрузка флагов\nв систему проверки"
+            ],
+            "id": "5628f3a6-860f-4cbb-a83a-a99e5e31a3f0",
+            "source": {
+              "cell": "e09accd2-0559-4d1d-8c94-72935d9d8926",
+              "port": "f22d3963-19fc-4b45-a353-27b2dc6e9c63"
+            },
+            "target": {
+              "cell": "5036e71c-d611-4f36-b29b-fd49994a0dec",
+              "port": "c1e24710-624d-4fad-be38-5441dd9bdfe7"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Данные о сданных задачах",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Данные о сданных задачах"
+            ],
+            "id": "8ec082e7-3f04-4549-9884-a8d555c44f6c",
+            "source": {
+              "cell": "5036e71c-d611-4f36-b29b-fd49994a0dec",
+              "port": "55e9fb22-0522-4c16-adae-ba2fc3a77f81"
+            },
+            "target": {
+              "cell": "9f279ac3-8f38-4570-aea3-9b17710cc6f2",
+              "port": "38651c23-bca5-4e8f-b5c2-8cdcf5236c68"
+            },
+            "vertices": [
+              {
+                "x": 303.5,
+                "y": 400
+              },
+              {
+                "x": 299.75,
+                "y": 310
               }
             ]
           },
@@ -2989,12 +2989,12 @@
           },
           {
             "position": {
-              "x": 243.75,
-              "y": 450
+              "x": 270,
+              "y": 440
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 80,
+              "height": 100
             },
             "attrs": {
               "text": {
@@ -3007,8 +3007,7 @@
               }
             },
             "visible": true,
-            "shape": "actor",
-            "zIndex": 13,
+            "shape": "process",
             "ports": {
               "groups": {
                 "top": {
@@ -3075,31 +3074,35 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "ad14da32-55e8-481a-b758-5a018479c866"
+                  "id": "55e9fb22-0522-4c16-adae-ba2fc3a77f81"
                 },
                 {
                   "group": "right",
-                  "id": "24ce1334-6a7f-4e92-948c-179f9abe2f13"
+                  "id": "c1e24710-624d-4fad-be38-5441dd9bdfe7"
                 },
                 {
                   "group": "bottom",
-                  "id": "d9bc5ed3-f349-44d0-a93d-d5bee99fb305"
+                  "id": "3c3494cb-0566-4944-99cf-3dcf01efa03b"
                 },
                 {
                   "group": "left",
-                  "id": "8ad74034-5a1d-47c4-b9f3-0715b8e5ffa8"
+                  "id": "39c1dd35-215e-4c87-afa6-13a1bce0278f"
                 }
               ]
             },
-            "id": "408fa968-1818-4635-8f47-d6662fdd9faf",
+            "id": "5036e71c-d611-4f36-b29b-fd49994a0dec",
+            "zIndex": 14,
             "data": {
-              "type": "tm.Actor",
+              "type": "tm.Process",
               "name": "Система \nпроверки тасков",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
