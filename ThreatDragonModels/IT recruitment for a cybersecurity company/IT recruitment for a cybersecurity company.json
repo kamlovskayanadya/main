@@ -403,13 +403,6 @@
                 "spoofing": 4,
                 "repudiation": 5
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -721,16 +714,36 @@
                   "new": false,
                   "number": 14,
                   "score": ""
+                },
+                {
+                  "id": "98231c1f-16a6-4724-ba15-88d6f15fdf3b",
+                  "title": "Вставка вредоносного кода в сообщение",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Пользователь может вставить в сообщение вредоносный JavaScript или HTML-код, который выполнится у другого пользователя при просмотре.  \nCWE-79: Improper Neutralization of Input During Web Page Generation (XSS)",
+                  "mitigation": "Экранировать содержимое сообщений перед отображением в интерфейсе.  \nOWASP ASVS 5.1.2",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 40,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 1,
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2260,6 +2273,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 38
+    "threatTop": 40
   }
 }
