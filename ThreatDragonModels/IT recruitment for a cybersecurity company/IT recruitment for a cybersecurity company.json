@@ -1959,6 +1959,19 @@
                   "new": false,
                   "number": 31,
                   "score": ""
+                },
+                {
+                  "id": "8cfa2225-de76-4e8b-94b5-313aaa39b42c",
+                  "title": "Назначение повышенных прав ",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Elevation of privilege",
+                  "description": "Пользователь может изменить параметры в запросе или токене, чтобы получить более высокий уровень доступа (например, роль администратора или рекрутера).  \nCWE-250: Execution with Unnecessary Privileges",
+                  "mitigation": "Назначать и проверять права доступа только на серверной стороне, независимо от клиентских данных.  \nOWASP ASVS 4.2.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -1967,7 +1980,7 @@
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 1
               }
             },
             "tools": {
@@ -2164,6 +2177,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 31
+    "threatTop": 32
   }
 }
