@@ -1376,8 +1376,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "3190641f-c552-4321-a2d6-226a05863536",
             "zIndex": -1,
+            "id": "3190641f-c552-4321-a2d6-226a05863536",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1397,8 +1397,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "510dcd20-688c-4c97-aaa5-b167c890b0c4",
             "zIndex": -1,
+            "id": "510dcd20-688c-4c97-aaa5-b167c890b0c4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1409,20 +1409,20 @@
           },
           {
             "position": {
-              "x": 100,
-              "y": -240
+              "x": 92.5,
+              "y": -250
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 120,
+              "height": 70
             },
             "attrs": {
               "text": {
                 "text": "Кандидат"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1518,27 +1518,9 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "43792f82-0d80-40a7-b772-0a0427c6605a",
-                  "title": "Подделка личности",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Spoofing",
-                  "description": "Нарушитель выдает себя за другого пользователя, используя уязвимость в системе аутентификации (например, перебор пароля, повторное использование токенов).",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 1,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 1,
-                "repudiation": 0
-              }
+              "threats": []
             },
             "tools": {
               "items": [
@@ -3033,6 +3015,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -3116,7 +3099,6 @@
               ]
             },
             "id": "5036e71c-d611-4f36-b29b-fd49994a0dec",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Система \nпроверки тасков",
@@ -3137,6 +3119,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 1
+    "threatTop": 4
   }
 }
