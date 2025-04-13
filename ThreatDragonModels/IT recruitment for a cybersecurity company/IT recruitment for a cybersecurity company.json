@@ -2034,7 +2034,7 @@
                   "severity": "High",
                   "type": "Tampering",
                   "description": "Кандидат может изменить данные в запросе, чтобы система засчитала таск как выполненный.  \nCWE-472: External Control of Assumed-Immutable Web Parameter",
-                  "mitigation": "1. Проверять выполнение заданий на сервере, а не по данным из клиента.  \n2. Использовать подтверждение выполнения через анализ содержимого или действий кандидата.  \nOWASP ASVS 4.2.1, 13.2.1",
+                  "mitigation": "1. Проверять выполнение заданий на сервере, а не по данным из клиента.  \nOWASP ASVS 4.2.1",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 24,
@@ -2043,7 +2043,7 @@
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
