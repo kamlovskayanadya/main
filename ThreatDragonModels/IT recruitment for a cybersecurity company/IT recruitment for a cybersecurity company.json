@@ -1097,14 +1097,34 @@
                   "new": false,
                   "number": 22,
                   "score": ""
+                },
+                {
+                  "id": "48c6b8e1-965c-4f9e-861c-9b6375db91b7",
+                  "title": "Отрицание факта общения в чате",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Repudiation",
+                  "description": "Пользователь может отрицать, что писал сообщение в чате, если система не фиксирует дату, время и автора при сохранении лога.  \nCWE-778: Insufficient Logging",
+                  "mitigation": "Фиксировать автора, дату и время каждого сообщения при записи в лог.  \nOWASP ASVS 10.2.3",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 1,
+                "repudiation": 2,
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2266,6 +2286,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 40
+    "threatTop": 41
   }
 }
