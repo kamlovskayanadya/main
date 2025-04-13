@@ -407,8 +407,8 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 4,
-                "repudiation": 5
+                "spoofing": 5,
+                "repudiation": 8
               }
             }
           },
@@ -702,8 +702,8 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "description": "Злоумышленник может отправить большое количество сообщений, что приведёт к перегрузке интерфейса или сервера.  \nCWE-400: Uncontrolled Resource Consumption",
-                  "mitigation": "1. Ограничить частоту отправки сообщений.  \n2. Установить лимит на длину текста.  \nOWASP ASVS 7.5.1, 13.4.1",
+                  "description": "Злоумышленник может отправить большое количество текста в чате, что приведёт к перегрузке интерфейса или сервера.  \nCWE-400: Uncontrolled Resource Consumption",
+                  "mitigation": "Ограничить частоту отправки сообщений.  \nOWASP ASVS 7.5.1",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 13,
@@ -734,14 +734,27 @@
                   "new": false,
                   "number": 40,
                   "score": ""
+                },
+                {
+                  "id": "967e9a41-5435-46e3-a2c1-57fbc1400c3c",
+                  "title": "Перегрузка чата",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Злоумышленник может отправить большое количество сообщений, что приведёт к перегрузке интерфейса или сервера.  \nCWE-400: Uncontrolled Resource Consumption",
+                  "mitigation": "Установить лимит на длину текста.  \nOWASP ASVS 13.4.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 43,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 0,
-                "tampering": 2,
+                "spoofing": 1,
+                "tampering": 3,
                 "repudiation": 0,
                 "informationDisclosure": 1,
-                "denialOfService": 1,
+                "denialOfService": 5,
                 "elevationOfPrivilege": 0
               }
             }
@@ -2273,6 +2286,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 41
+    "threatTop": 43
   }
 }
