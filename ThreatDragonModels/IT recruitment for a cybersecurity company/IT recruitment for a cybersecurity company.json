@@ -813,11 +813,24 @@
                   "new": false,
                   "number": 15,
                   "score": ""
+                },
+                {
+                  "id": "a98eac0e-e2ee-406b-9599-d60da18ede98",
+                  "title": "Отказ от изменений в системе",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Рекрутер может отрицать, что менял данные в личном деле кандидата, если такие действия не фиксируются.  \nCWE-347: Improper Verification of Cryptographic Signature",
+                  "mitigation": "Вести журнал всех изменений данных в системе.  \nOWASP ASVS 10.2.3",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
@@ -1942,6 +1955,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 15
+    "threatTop": 16
   }
 }
