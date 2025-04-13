@@ -211,10 +211,23 @@
                   "new": false,
                   "number": 7,
                   "score": ""
+                },
+                {
+                  "id": "f4283c26-071e-48a5-be72-743db429f06a",
+                  "title": "Получение чужого резюме",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Кандидат может изменить значение параметра ID в URL (например, ?resume_id=123) и получить доступ к чужому резюме.  \nCWE-639: Authorization Bypass Through User-Controlled Key",
+                  "mitigation": "Проверяем права доступа пользователя на каждый запрос к защищённым данным на серверной стороне.  \nOWASP ASVS 4.2.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 3
               }
             },
@@ -1815,6 +1828,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 7
+    "threatTop": 8
   }
 }
