@@ -1920,10 +1920,23 @@
                   "new": false,
                   "number": 28,
                   "score": ""
+                },
+                {
+                  "id": "d9e6bd5a-a994-4516-9d3e-63d3fdc363ab",
+                  "title": "Вход кандидата под видом рекрутера",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "Кандидат может изменить роль в запросе или использовать уязвимость в системе авторизации, чтобы войти в интерфейс как рекрутер и получить доступ к данным других пользователей.  \nCWE-269: Improper Privilege Management",
+                  "mitigation": "Назначать и проверять роль пользователя только на серверной стороне.  \nOWASP ASVS 4.2.1",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -2125,6 +2138,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "kamlovskayanadya",
-    "threatTop": 28
+    "threatTop": 29
   }
 }
