@@ -175,7 +175,7 @@
               "threats": [
                 {
                   "id": "eeba4488-176f-4646-ad06-b71ef6eeec41",
-                  "title": "22222. Подделка личности при входе(Spoofing)",
+                  "title": "222222222. Подделка личности при входе(Spoofing)",
                   "status": "Open",
                   "severity": "Critical",
                   "type": "Spoofing",
